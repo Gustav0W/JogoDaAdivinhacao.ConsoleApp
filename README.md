@@ -1,20 +1,26 @@
-# Jogo da Adivinhação
+# Jogo da AdivinhaÃ§Ã£o
 
 ![](https://i.imgur.com/N93CPlS.gif)
 
-### Introdução
+### IntroduÃ§Ã£o
 
-Um jogo onde você deve adivinhar o número de 1 a 20 que foi escolhido pelo sistema aleatoriamente.
+Um jogo onde vocÃª deve adivinhar o nÃºmero de 1 a 20 que foi escolhido pelo sistema aleatoriamente.
 
 ## Jogabilidade
 - Permite escolher a dificuldade
-- Inserir o número e apertar enter quando for seguir em frente
+- Inserir o nÃºmero e apertar enter quando for seguir em frente
 - Permite rejogar sem ter que reiniciar o programa
 
 ## Como Utilizar
-1. Clone o repositório ou baixe o código fonte.
-2. Abra o terminal ou o prompt de comando e navegue até a pasta raíz.
-3. Utilize o comando abaixo para restaurar as dependências do projeto.
+1. Clone o repositÃ³rio ou baixe o cÃ³digo fonte.
+```
+git clone https://github.com/Gustav0W/JogoDaAdivinhacao.ConsoleApp
+```  
+2. Abra o terminal ou o prompt de comando e navegue atÃ© a pasta raÃ­z.
+```
+cd JogoDaAdivinhacao.ConsoleApp
+```
+3. Utilize o comando abaixo para restaurar as dependÃªncias do projeto.
 ```
 dotnet restore
 ```
@@ -26,17 +32,17 @@ dotnet build --configuration Release
 ```
 dotnet run
 ```
-6. Você verá esse terminal:
+6. VocÃª verÃ¡ esse terminal:
 ```
 Console.WriteLine("=============================");
-Console.WriteLine("     Jogo da Adivinhação     ");
+Console.WriteLine("     Jogo da AdivinhaÃ§Ã£o     ");
 Console.WriteLine("=============================");
 
 //Dificuldade
 Console.WriteLine("Escolha um nivel de dificuldade  ");
 Console.WriteLine("---------------------------------");
-Console.WriteLine("1 - Fácil (10 tentativas)");
-Console.WriteLine("2 - Médio (5 tentativas)");
-Console.WriteLine("3 - Difícil (3 tentativas)");
+Console.WriteLine("1 - FÃ¡cil (10 tentativas)");
+Console.WriteLine("2 - MÃ©dio (5 tentativas)");
+Console.WriteLine("3 - DifÃ­cil (3 tentativas)");
 Console.Write("Digite sua escolha: ");
 ```
